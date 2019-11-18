@@ -6,8 +6,8 @@
 //  Copyright (c) 2018 huri000@gmail.com. All rights reserved.
 //
 
-import UIKit
 import QuickLayout
+import UIKit
 
 extension UILabel {
     var style: EKProperty.LabelStyle {
@@ -27,12 +27,17 @@ extension UILabel {
     
     var content: EKProperty.LabelContent {
         set {
-            text = newValue.text
+            if let attributedText = newValue.attributedText {
+                style = newValue.style
+                self.attributedText = attributedText
+            } else {
+                text = newValue.text
+                style = newValue.style
+            }
             accessibilityIdentifier = newValue.accessibilityIdentifier
-            style = newValue.style
         }
         get {
-            return EKProperty.LabelContent(text: text ?? "", style: style)
+            return EKProperty.LabelContent(text: text ?? "", attributedText: attributedText, style: style)
         }
     }
 }
@@ -102,7 +107,7 @@ extension UIImageView {
                                    delay: 0,
                                    options: options,
                                    animations: {
-                        self.transform = transform
+                                       self.transform = transform
                     }, completion: nil)
                 }
             }
@@ -114,7 +119,6 @@ extension UIImageView {
 }
 
 extension UITextField {
-    
     var placeholder: EKProperty.LabelContent {
         set {
             attributedPlaceholder = NSAttributedString(

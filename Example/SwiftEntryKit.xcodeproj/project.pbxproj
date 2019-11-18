@@ -538,8 +538,8 @@
 				14B48B4F20B81C9700CE3EF4 /* EKPopUpMessageView.swift */,
 				14B48B5020B81C9700CE3EF4 /* EKMessageContentView.swift */,
 				14B3A50620C1198A002306C4 /* EKRatingMessageView.swift */,
-				1E62CB1A238282EA00B03021 /* L5SimpleMessageView.swift */,
 				1E62CB1E2382838D00B03021 /* L5MessageContentView.swift */,
+				1E62CB1A238282EA00B03021 /* L5SimpleMessageView.swift */,
 				1E62CB29238283D000B03021 /* L5AlertMessageView.swift */,
 			);
 			path = MessageViews;
