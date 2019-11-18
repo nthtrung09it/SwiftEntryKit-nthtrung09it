@@ -766,7 +766,8 @@ class PresetsViewController: UIViewController {
             simpleMessage: simpleMessage,
             buttonBarContent: buttonsBarContent
         )
-        let contentView = EKAlertMessageView(with: alertMessage)
+        //let contentView = EKAlertMessageView(with: alertMessage)
+        let contentView = L5AlertMessageView(with: alertMessage)
         SwiftEntryKit.display(entry: contentView, using: attributes)
     }
     

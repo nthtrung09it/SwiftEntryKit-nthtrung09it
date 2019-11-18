@@ -114,6 +114,9 @@
 		14F36800208B585E001E8F56 /* PresetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F367FE208B585E001E8F56 /* PresetsViewController.swift */; };
 		14F36801208B585E001E8F56 /* PresetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F367FF208B585E001E8F56 /* PresetTableViewCell.swift */; };
 		14F3FD86213A6ED900CA3010 /* EntryCachingHeuristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3FD85213A6ED900CA3010 /* EntryCachingHeuristic.swift */; };
+		1E62CB27238283B100B03021 /* L5SimpleMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E62CB1A238282EA00B03021 /* L5SimpleMessageView.swift */; };
+		1E62CB28238283BB00B03021 /* L5MessageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E62CB1E2382838D00B03021 /* L5MessageContentView.swift */; };
+		1E62CB2B238283E900B03021 /* L5AlertMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E62CB29238283D000B03021 /* L5AlertMessageView.swift */; };
 		4AC55728F59A76BFD5A42400 /* Pods_SwiftEntryKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95588DF24DD5C09472F48E7E /* Pods_SwiftEntryKitTests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -316,6 +319,9 @@
 		14F367FE208B585E001E8F56 /* PresetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetsViewController.swift; sourceTree = "<group>"; };
 		14F367FF208B585E001E8F56 /* PresetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetTableViewCell.swift; sourceTree = "<group>"; };
 		14F3FD85213A6ED900CA3010 /* EntryCachingHeuristic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCachingHeuristic.swift; sourceTree = "<group>"; };
+		1E62CB1A238282EA00B03021 /* L5SimpleMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L5SimpleMessageView.swift; sourceTree = "<group>"; };
+		1E62CB1E2382838D00B03021 /* L5MessageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L5MessageContentView.swift; sourceTree = "<group>"; };
+		1E62CB29238283D000B03021 /* L5AlertMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L5AlertMessageView.swift; sourceTree = "<group>"; };
 		2A856CAE48665E23BC76CB3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3AB6680CCFCE360139BCE476 /* Pods-SwiftEntryKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEntryKitTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftEntryKitTests/Pods-SwiftEntryKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SwiftEntryKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftEntryKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -532,6 +538,9 @@
 				14B48B4F20B81C9700CE3EF4 /* EKPopUpMessageView.swift */,
 				14B48B5020B81C9700CE3EF4 /* EKMessageContentView.swift */,
 				14B3A50620C1198A002306C4 /* EKRatingMessageView.swift */,
+				1E62CB1A238282EA00B03021 /* L5SimpleMessageView.swift */,
+				1E62CB1E2382838D00B03021 /* L5MessageContentView.swift */,
+				1E62CB29238283D000B03021 /* L5AlertMessageView.swift */,
 			);
 			path = MessageViews;
 			sourceTree = "<group>";
@@ -1093,9 +1102,12 @@
 				14B3A51220C16B64002306C4 /* EKRatingMessage.swift in Sources */,
 				14B48B7620B81C9700CE3EF4 /* EKAttributes+WindowLevel.swift in Sources */,
 				14B48B5920B81C9700CE3EF4 /* EKEntryView.swift in Sources */,
+				1E62CB2B238283E900B03021 /* L5AlertMessageView.swift in Sources */,
 				14B48B8320B81C9700CE3EF4 /* EKProcessingNoteMessageView.swift in Sources */,
 				14B48B8020B81C9700CE3EF4 /* EKNoteMessageView.swift in Sources */,
 				14B48B7320B81C9700CE3EF4 /* EKAttributes+Precedence.swift in Sources */,
+				1E62CB27238283B100B03021 /* L5SimpleMessageView.swift in Sources */,
+				1E62CB28238283BB00B03021 /* L5MessageContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
